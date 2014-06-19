@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/mblund
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.magnusberglund.com
+  * I am mblund (https://keybase.io/mblund) on keybase.
+  * I have a public key with fingerprint E4CA BB7B 0D92 A6D5 73BE  D0AB 53D0 3CB7 9F2C CAF1
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e4cabb7b0d92a6d573bed0ab53d03cb79f2ccaf1",
+            "host": "keybase.io",
+            "key_id": "53d03cb79f2ccaf1",
+            "uid": "456ec82362b3ff1c14d4b0d34f183000",
+            "username": "mblund"
+        },
+        "service": {
+            "hostname": "www.magnusberglund.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1403193825,
+    "expire_in": 157680000,
+    "prev": "080f5e1e577c59955293d517639dd9d3389d27c5d3e58d989d9c6c0bee10af23",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.22
+Comment: https://keybase.io/crypto
+
+yMH6AnicbZFdSBxXFMdnk0Z00aoLWgilyCV9CMoyM3dndmY1QRMf1rJCwFAIMVln
+5t5Zh7gz6+yuG10NfWgoimn86kNKGwVBDan5IBYiFmNSlTYxIELAL6j9MIk+xKxB
+zcZQvLOYtzxdzv/8zv9/Lmcy6yBlt/VUnjl7+e5wu+3JRDJKVfVn/B0HsoEagScO
+LuDUo2p6AJshU9MjwAOwS5Fk2S3TSGQlHnFuKGNESzIHEQ0V2S2qrKJIKgOKQK0R
+tiaIjSyFsVMziEYKv4aI+hE+mmq4OB4rAgt5VoaqyiiMC7lIGnSpjABpmrbAMDZ1
+KYgJHZTrojoCLUWAaA2aQrR4Kni/H4vFnEEpoEfDMjYDFutUjCDxCJlGxFCMOsLU
+RiIhj2URaQylZrDs33fzy5qOyP/JQAM2w5qhAw9DSCWiWfaMi4aMCAWWKwL4Ykgz
+sV+zCM7NC2RV2orBDcSSFmiVwwzm3G6FE0WOY0WIOMbNQxEhEUEoiIglLQQxJyCR
+VKLCK7SMMUNLKgtJfhjX6wbw8GRNKUAsw1pAlyJRE4OWRxPVn1A2O5V26IB1Qcqe
+kfPhrrdn0qnv4sk8+0Li2pre6xuzdc/zHfqMeLK4sN87UrEz2CF0dX2a05Q7OLb4
+dGSLcrxz/Dh3J61548Gvr9Z/yio7BtKG+sre+/oSk1+t+B9X/Pz121Jq1Ghb3k0M
+nK6qnvTOO+pPbV+d7vm/k+uct59rzoQ7P9xw/vZnTUb/X1Pg38Jvlny5+gvlxHJ5
+QQ9/qR18Xzn75fG5zWB3XnO1/nmirqym5Mpua3I40Vv+h3P0n8Xs597Z7G9/yWyj
+KlbTC7NdA7FnX/y+1bra5JjYXMIbBbXj54+sV013KiVe9uZC6cb1e/HX+cnxl/+t
+5R9dOcy1vRm6f2uq+OEu+mxlbtvOBnzsHgNZHkw=
+=lCvN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mblund
+
+==================================================================
+
