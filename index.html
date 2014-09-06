@@ -4,9 +4,8 @@
 			html {
 				background: #000;
 			}
-
 			body {
-				color: #090;
+				color: green;
 				margin: 50px auto;
 
 				font-family: Courier New, Courier, monospace;
@@ -20,78 +19,73 @@
 				text-align:left;
 				margin-left:10px;
 			}
-			div.cursor {
-				display: inline-block;
-				background: #111;
-				margin-left: 1px;
 
-			}
-			#typed-cursor {
-				font-weight: bold;
-				font-size: 14px;
-				color: green;
-			}
+            .line {
+                width: 100%;
+                overflow: hidden;
+            }
 
-			#typed-cursor.blinking {
-				-webkit-animation: 1s blink step-end infinite;
-				-moz-animation: 1s blink step-end infinite;
-				-ms-animation: 1s blink step-end infinite;
-				-o-animation: 1s blink step-end infinite;
-				animation: 1s blink step-end infinite;
-			}
+            .pre {
+                float:left;
 
-			@keyframes "blink" {
-				from,to {
-					color: transparent;
-				}
-				50% {
-					color: green;
-				}
+            }
+            .span {
+                display: block;
+                overflow: hidden;
+                padding-right:10px;
+            }
 
-			}
+            .input{
+                font-family: Courier New, Courier, monospace;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 16px;
 
-			@-moz-keyframes blink {
-				from,to {
-					color: transparent;
-				}
-				50% {
-					color: green;
-				}
+                -webkit-font-smoothing: antialiased;
+                background-color: transparent;
+                border: 0px solid;
 
-			}
 
-			@-webkit-keyframes "blink" {
-				from,to {
-					color: transparent;
-				}
-				50% {
-					color: green;
-				}
+                color: green;
+                outline: none;
+                background: #000000;
+                background-border:0;
+                width: 100%;
+            }
 
-			}
-
-			@-ms-keyframes "blink" {
-				from,to {
-					color: transparent;
-				}
-				50% {
-					color: green;
-				}
-
-			}
-
-			@-o-keyframes "blink" {
-				from,to {
-					color: transparent;
-				}
-				50% {
-					color: green;
-				}
-			}
 		</style>
-	
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(document).keydown(function(a){
+                    var input = $("#foo");
+                    input.focus();
+                    if(a.keyCode == 9){
+                        return false;
+                    } else if (a.keyCode == 13){
+                       execute(input.val());
+                       input.val("");
+                    }
+                    //console.log(a.keyCode)
+
+                });
+            });
+
+            var execute = function(line){
+                //console.log("execute" + line)
+            }
+        </script>
 	</head>
-	<body>
-		<p>guest@magnusberglund.com &gt; <span id="typed-cursor" class="blinking">|</span>  </p>
+	<body id="body">
+        <div id="history"></div>
+        <div id="line" class="line">
+            <div class="pre">guest@magnusberglund.com &gt; </div>
+            <span class="span">
+                <input id="foo" class="input" autofocus="true">
+            </span>
+        </div>
+        <span id="debug"></span>
+
 	</body>
 </html>
